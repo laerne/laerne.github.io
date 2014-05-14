@@ -1,4 +1,4 @@
 laerne.github.io
 ================
 
-Laern's website
+This is the source code of laerne's blog.
