@@ -30,3 +30,8 @@ build/
 
 # jekyll will generate the site on this directory
 _site
+
+#editor files
+.*.swp
+.#*
+*~

@@ -1,10 +1,23 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-baseurl: ""
-url: "http://yourdomain.com"
+title: Mathistic
+tagline: "Mathematics and Arts!"
+description: "Articles about math, painting and anything in-between."
+url: "http://laerne.github.io"
+username: laerne
+
+author:
+    name: "Nicolas Brack"
+
+#display settings
+paginate: 12
+paginate_path: "page-:num"
+icon:
+    small: public/icon32.png
+    large: public/icon512.png
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+highlighter: pygments
+permalink: "/:year/:month/:day/:title/"
+
+
